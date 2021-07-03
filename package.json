@@ -1,0 +1,28 @@
+{
+  "name": "formio-blockchain-todolist",
+  "version": "1.0.0",
+  "description": "Form.io Blockchain ToDo List",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "script": {
+  "dev": "lite-server",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "author": "edwinanciani@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "boostrap": "^2.0.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "lite-server": "^2.6.1",
+    "nodemon": "^2.0.9",
+    "truffle": "^5.3.14",
+    "truffle-contract": "^4.0.31"
+  },
+  "dependencies": {
+    "web3": "^1.4.0"
+  }
+}
